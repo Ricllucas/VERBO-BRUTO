@@ -70,7 +70,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://www.youtube.com/@verbobruto"
+            href="https://www.youtube.com/@verbobruto?sub_confirmation=1"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-[#D4AF37] text-[#0A0A0A] font-['Oswald'] font-bold uppercase tracking-widest px-8 py-4 hover:bg-[#F5F5F5] transition-colors duration-200 text-sm"

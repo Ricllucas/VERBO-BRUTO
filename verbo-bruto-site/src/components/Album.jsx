@@ -250,7 +250,7 @@ export default function Album() {
         {/* CTAs */}
         <motion.div variants={fadeUp} className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://www.youtube.com/@verbobruto"
+            href="https://www.youtube.com/@verbobruto?sub_confirmation=1"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 border border-[#D4AF37] text-[#D4AF37] font-['Oswald'] uppercase tracking-widest px-8 py-4 text-sm hover:bg-[#D4AF37] hover:text-[#0A0A0A] transition-all duration-200"

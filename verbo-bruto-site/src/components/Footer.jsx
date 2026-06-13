@@ -10,7 +10,7 @@ const socials = [
   },
   {
     label: 'YouTube',
-    href: 'https://www.youtube.com/@verbobruto',
+    href: 'https://www.youtube.com/@verbobruto?sub_confirmation=1',
     icon: (
       <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true">
         <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.4 12 20.4 12 20.4s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z" />

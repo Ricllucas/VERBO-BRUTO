@@ -92,7 +92,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://www.youtube.com/@verbobruto"
+            href="https://www.youtube.com/@verbobruto?sub_confirmation=1"
             target="_blank"
             rel="noreferrer"
             className="border border-[#D4AF37] text-[#D4AF37] px-4 py-2 text-xs font-['Oswald'] tracking-widest uppercase hover:bg-[#D4AF37] hover:text-[#0A0A0A] transition-all duration-200"
@@ -150,7 +150,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://www.youtube.com/@verbobruto"
+                href="https://www.youtube.com/@verbobruto?sub_confirmation=1"
                 target="_blank"
                 rel="noreferrer"
                 className="border border-[#D4AF37] text-[#D4AF37] px-4 py-3 text-xs font-['Oswald'] tracking-widest uppercase text-center hover:bg-[#D4AF37] hover:text-[#0A0A0A] transition-all"

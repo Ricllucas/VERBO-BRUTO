@@ -20,7 +20,7 @@ const redes = [
     name: 'YouTube',
     handle: '@verbobruto',
     desc: 'Músicas completas, leituras bíblicas, visualizers e séries narrativas. A casa do projeto.',
-    url: 'https://www.youtube.com/@verbobruto',
+    url: 'https://www.youtube.com/@verbobruto?sub_confirmation=1',
     color: '#FF0000',
     icon: (
       <svg viewBox="0 0 24 24" className="w-7 h-7" fill="currentColor" aria-hidden="true">
