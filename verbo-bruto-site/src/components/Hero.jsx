@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/yt_profile.png?v=2"
+          src="/assets/yt_profile.png?v=3"
           alt=""
           fetchpriority="high"
           decoding="async"

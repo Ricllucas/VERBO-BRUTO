@@ -46,7 +46,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
-              <img src="/assets/logo.png?v=2" alt="Verbo Bruto" className="w-10 h-10 object-contain" />
+              <img src="/assets/logo.png?v=3" alt="Verbo Bruto" className="w-10 h-10 object-contain" />
               <span className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] tracking-widest text-lg">
                 Verbo Bruto
               </span>
