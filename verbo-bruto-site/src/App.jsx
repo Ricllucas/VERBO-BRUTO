@@ -1,4 +1,6 @@
 import Navbar from './components/Navbar'
+import VersiculoDoDia from './components/VersiculoDoDia'
+import Oracao from './components/Oracao'
 import Tela01Chegada from './sections/Tela01Chegada'
 import Tela02Manifesto from './sections/Tela02Manifesto'
 import Tela03Mensageiro from './sections/Tela03Mensageiro'
@@ -14,6 +16,8 @@ function App() {
   return (
     <div className="bg-[#0A0A0A] min-h-screen">
       <Navbar />
+      <VersiculoDoDia />
+      <Oracao />
       <main>
         <Tela01Chegada />
         <Tela02Manifesto />
