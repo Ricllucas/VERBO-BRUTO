@@ -8,7 +8,7 @@ export default function Tela03Mensageiro() {
         <ScrollReveal className="mb-16 md:mb-24">
           <div className="relative overflow-hidden max-w-4xl mx-auto">
             <img
-              src="/assets/mensageiro_moto.jpg"
+              src="/assets/mensageiro_luz.png"
               alt="O Mensageiro ao lado da moto"
               className="w-full h-[50vh] md:h-[70vh] object-cover object-center opacity-80"
               loading="lazy"

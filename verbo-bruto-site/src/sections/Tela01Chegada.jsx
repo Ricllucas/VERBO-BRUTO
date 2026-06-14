@@ -23,8 +23,8 @@ export default function Tela01Chegada() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/hero_estrada.jpg"
-          alt="Mensageiro caminhando"
+          src="/assets/hero_caminhada.png"
+          alt="Mensageiro caminhando na estrada"
           className="w-full h-full object-cover object-center opacity-50"
           fetchpriority="high"
         />

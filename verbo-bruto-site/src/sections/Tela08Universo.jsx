@@ -24,8 +24,8 @@ export default function Tela08Universo() {
           <ScrollReveal>
             <div className="relative">
               <img
-                src="/assets/mensageiro_estrada.jpg"
-                alt="Mensageiro na estrada"
+                src="/assets/bastidores_filme.png"
+                alt="Bastidores das filmagens"
                 className="w-full h-[40vh] md:h-[50vh] object-cover object-center opacity-60"
                 loading="lazy"
               />
