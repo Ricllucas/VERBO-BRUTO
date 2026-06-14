@@ -23,9 +23,9 @@ export default function Tela01Chegada() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/banner.jpg"
+          src="/assets/hero_estrada.jpg"
           alt="Mensageiro caminhando"
-          className="w-full h-full object-cover object-center opacity-40"
+          className="w-full h-full object-cover object-center opacity-50"
           fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/60 via-[#0A0A0A]/40 to-[#0A0A0A]" />

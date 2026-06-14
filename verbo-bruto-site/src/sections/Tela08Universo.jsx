@@ -24,9 +24,9 @@ export default function Tela08Universo() {
           <ScrollReveal>
             <div className="relative">
               <img
-                src="/assets/banner.jpg"
-                alt="Estrada"
-                className="w-full h-[40vh] md:h-[50vh] object-cover opacity-60"
+                src="/assets/mensageiro_estrada.jpg"
+                alt="Mensageiro na estrada"
+                className="w-full h-[40vh] md:h-[50vh] object-cover object-center opacity-60"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D] via-transparent to-[#0D0D0D]" />

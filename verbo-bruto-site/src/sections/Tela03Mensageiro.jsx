@@ -8,9 +8,9 @@ export default function Tela03Mensageiro() {
         <ScrollReveal className="mb-16 md:mb-24">
           <div className="relative overflow-hidden max-w-4xl mx-auto">
             <img
-              src="/assets/yt_profile.png"
-              alt="O Mensageiro"
-              className="w-full h-[50vh] md:h-[70vh] object-cover object-top opacity-80"
+              src="/assets/mensageiro_moto.jpg"
+              alt="O Mensageiro ao lado da moto"
+              className="w-full h-[50vh] md:h-[70vh] object-cover object-center opacity-80"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-[#0A0A0A]/30" />

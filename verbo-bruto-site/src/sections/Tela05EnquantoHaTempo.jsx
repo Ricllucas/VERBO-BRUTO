@@ -51,9 +51,9 @@ export default function Tela05EnquantoHaTempo() {
           <div className="relative max-w-sm mx-auto">
             <div className="absolute -inset-2 border border-[#D4AF37]/10" />
             <img
-              src="/assets/yt_profile.png"
+              src="/assets/mensageiro_perfil.jpg"
               alt="João Vitor"
-              className="w-full aspect-[4/5] object-cover opacity-60 grayscale"
+              className="w-full aspect-[4/5] object-cover object-top opacity-60 grayscale"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent" />
