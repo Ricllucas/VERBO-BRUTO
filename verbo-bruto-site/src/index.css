@@ -49,3 +49,51 @@ body {
   text-transform: uppercase;
   color: #D4AF37;
 }
+
+/* ─── Typography & layout helpers ─── */
+
+/* Centered text block with max readable width */
+.text-block {
+  text-align: center;
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Justified text for long reads */
+.text-justify {
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* Headline reiteration helper — last line emphasized */
+.headline-accent {
+  line-height: 1.05;
+}
+.headline-accent span:last-child {
+  color: #D4AF37;
+}
+
+/* Responsive section padding */
+.section-pad {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+@media (max-width: 768px) {
+  .section-pad {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Mobile text sizing */
+@media (max-width: 640px) {
+  .text-block {
+    text-align: left;
+    text-align-last: left;
+  }
+  .text-justify {
+    text-align: left;
+    text-align-last: left;
+  }
+}

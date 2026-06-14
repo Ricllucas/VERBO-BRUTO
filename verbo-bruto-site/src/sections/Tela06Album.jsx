@@ -84,21 +84,21 @@ export default function Tela06Album() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="album" className="relative w-full bg-[#0D0D0D] py-28 px-6">
+    <section id="album" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-6">
       <div ref={ref} className="max-w-5xl mx-auto">
         {/* Header */}
         <ScrollReveal>
           <div className="text-center mb-16">
             <p className="section-label mb-6">O Primeiro Capítulo</p>
             <h2
-              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-tight mb-6"
-              style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}
+              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.05] mb-6"
+              style={{ fontSize: 'clamp(32px, 5.5vw, 60px)' }}
             >
               Contemplai
               <br />
               <span className="text-[#D4AF37]">o Cordeiro</span>
             </h2>
-            <p className="text-[#888888] text-base leading-relaxed max-w-lg mx-auto">
+            <p className="text-[#888888] text-sm md:text-base leading-relaxed max-w-lg mx-auto">
               Este álbum nasceu da contemplação. Cada música representa um momento da jornada
               de alguém que descobriu que tudo perde o valor diante da presença de Cristo.
             </p>

@@ -63,7 +63,7 @@ const platforms = [
 
 export default function Tela09Caminhe() {
   return (
-    <section id="caminhe" className="relative w-full bg-[#0A0A0A] py-28 px-6">
+    <section id="caminhe" className="relative w-full bg-[#0A0A0A] py-28 md:py-40 px-6">
       <div className="max-w-4xl mx-auto text-center">
         {/* Header */}
         <ScrollReveal>
@@ -72,8 +72,8 @@ export default function Tela09Caminhe() {
 
         <ScrollReveal delay={0.1}>
           <h2
-            className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-tight mb-6"
-            style={{ fontSize: 'clamp(28px, 5vw, 48px)' }}
+            className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.05] mb-6"
+            style={{ fontSize: 'clamp(28px, 5vw, 52px)' }}
           >
             Você chegou até aqui.
             <br />
@@ -82,7 +82,7 @@ export default function Tela09Caminhe() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <p className="text-[#888888] text-base leading-relaxed max-w-lg mx-auto mb-16">
+          <p className="text-[#888888] text-sm md:text-base leading-relaxed max-w-lg mx-auto mb-16">
             Toda semana. Uma nova música. Um novo vídeo. Um novo capítulo. Um novo chamado.
           </p>
         </ScrollReveal>

@@ -1,25 +1,21 @@
-import { useState } from 'react'
 import ScrollReveal from '../components/ScrollReveal'
 import VideoPlayer from '../components/VideoPlayer'
 
 export default function Tela05EnquantoHaTempo() {
-  const [showQuestions, setShowQuestions] = useState(false)
-
-  // PLACEHOLDER: Substitua pelo ID do vídeo do João Vitor após upload no YouTube
-  const VIDEO_PLACEHOLDER_ID = 'dQw4w9WgXcQ' // TODO: substituir pelo vídeo real
+  const VIDEO_ID = 'jkLADL0fmk0'
 
   return (
     <section
       id="enquanto-ha-tempo"
-      className="relative w-full bg-[#0A0A0A] py-28 px-6"
+      className="relative w-full bg-[#0A0A0A] py-28 md:py-40 px-6"
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         {/* Header */}
         <ScrollReveal>
-          <div className="text-center mb-20">
+          <div className="text-center mb-16 md:mb-20">
             <p className="section-label mb-6">Testemunho</p>
             <h2
-              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-tight"
+              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.05]"
               style={{ fontSize: 'clamp(32px, 6vw, 64px)' }}
             >
               Enquanto
@@ -31,19 +27,19 @@ export default function Tela05EnquantoHaTempo() {
 
         {/* Main text */}
         <ScrollReveal delay={0.1}>
-          <div className="space-y-6 mb-20">
-            <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed">
+          <div className="space-y-6 mb-16 md:mb-20">
+            <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed text-block">
               A maioria das pessoas acredita que ainda terá tempo. Tempo para pedir perdão.
               Tempo para abraçar. Tempo para voltar. Tempo para dizer: "Eu te amo."
               Tempo para dizer: "Me perdoe." Tempo para começar novamente.
             </p>
 
-            <p className="text-[#888888] text-base leading-relaxed">
+            <p className="text-[#888888] text-sm md:text-base leading-relaxed text-block">
               Mas ninguém recebeu a promessa do amanhã. Cada amanhecer é um presente.
               Cada encontro pode ser o último. Cada palavra pode ser a última oportunidade de amar.
             </p>
 
-            <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed">
+            <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed text-block">
               O Verbo Bruto existe para lembrar que a eternidade não começa quando a vida termina.
               Ela já está sendo construída agora. Enquanto você ainda respira. Enquanto ainda existe tempo.
             </p>
@@ -52,7 +48,7 @@ export default function Tela05EnquantoHaTempo() {
 
         {/* Photo of João Vitor */}
         <ScrollReveal delay={0.2} className="mb-12">
-          <div className="relative max-w-md mx-auto">
+          <div className="relative max-w-sm mx-auto">
             <div className="absolute -inset-2 border border-[#D4AF37]/10" />
             <img
               src="/assets/yt_profile.png"
@@ -66,7 +62,7 @@ export default function Tela05EnquantoHaTempo() {
 
         {/* Song story */}
         <ScrollReveal delay={0.3}>
-          <div className="max-w-2xl mx-auto text-center mb-16">
+          <div className="max-w-xl mx-auto text-center mb-16">
             <p className="text-[#888888] text-sm leading-relaxed mb-2">
               Esta canção nasceu depois de uma despedida que ninguém esperava.
             </p>
@@ -81,12 +77,9 @@ export default function Tela05EnquantoHaTempo() {
         <ScrollReveal delay={0.4} className="mb-16">
           <div className="max-w-3xl mx-auto">
             <VideoPlayer
-              youtubeId={VIDEO_PLACEHOLDER_ID}
+              youtubeId={VIDEO_ID}
               title="Enquanto Ainda Há Tempo"
             />
-            <p className="text-[#555555] text-xs text-center mt-4 tracking-wider">
-              ⚠️ Vídeo placeholder — substituir pelo vídeo real do João Vitor após upload
-            </p>
           </div>
         </ScrollReveal>
 
@@ -109,8 +102,8 @@ export default function Tela05EnquantoHaTempo() {
 
         {/* Questions */}
         <ScrollReveal delay={0.6}>
-          <div className="max-w-2xl mx-auto text-center py-16 border-t border-[#D4AF37]/10">
-            <p className="text-[#CCCCCC] text-lg md:text-xl leading-relaxed mb-8">
+          <div className="max-w-xl mx-auto text-center py-16 border-t border-[#D4AF37]/10">
+            <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed mb-8">
               Existe alguém que você precisa abraçar?
               <br />
               Existe alguém que precisa ouvir seu perdão?

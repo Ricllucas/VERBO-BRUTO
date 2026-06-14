@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 
 export default function Tela01Chegada() {
@@ -47,8 +47,8 @@ export default function Tela01Chegada() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.25, 0.1, 0.25, 1] }}
-          className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.1] tracking-wider mb-4"
-          style={{ fontSize: 'clamp(28px, 6vw, 72px)' }}
+          className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.05] tracking-wider mb-6"
+          style={{ fontSize: 'clamp(32px, 7vw, 80px)' }}
         >
           O Verbo não explica.
           <br />

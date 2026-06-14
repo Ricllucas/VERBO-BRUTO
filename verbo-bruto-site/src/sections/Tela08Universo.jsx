@@ -2,15 +2,15 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export default function Tela08Universo() {
   return (
-    <section id="universo" className="relative w-full bg-[#0D0D0D] py-28 px-6">
+    <section id="universo" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-6">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <ScrollReveal>
           <div className="text-center mb-20">
             <p className="section-label mb-6">O Universo</p>
             <h2
-              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-tight mb-6"
-              style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}
+              className="font-['Oswald'] font-bold uppercase text-[#F5F5F5] leading-[1.05] mb-6"
+              style={{ fontSize: 'clamp(32px, 5.5vw, 60px)' }}
             >
               Tudo começou
               <br />
@@ -26,22 +26,22 @@ export default function Tela08Universo() {
               <img
                 src="/assets/banner.jpg"
                 alt="Estrada"
-                className="w-full h-[50vh] object-cover opacity-60"
+                className="w-full h-[40vh] md:h-[50vh] object-cover opacity-60"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D] via-transparent to-[#0D0D0D]" />
             </div>
           </ScrollReveal>
 
-          <div className="space-y-6">
+          <div className="space-y-6 text-center md:text-left">
             <ScrollReveal delay={0.1}>
-              <p className="text-[#CCCCCC] text-lg leading-relaxed">
+              <p className="text-[#CCCCCC] text-base md:text-lg leading-relaxed">
                 Depois vieram as canções. As imagens. As leituras bíblicas. Os filmes.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <p className="text-[#888888] text-base leading-relaxed">
+              <p className="text-[#888888] text-sm md:text-base leading-relaxed">
                 Mas o propósito continua o mesmo. Levar pessoas até Cristo.
               </p>
             </ScrollReveal>
@@ -53,7 +53,7 @@ export default function Tela08Universo() {
                 </p>
                 <ul className="space-y-3">
                   {['Making of das canções', 'Fotografias da estrada', 'A moto e as filmagens', 'O estilo Gospel Noir', 'O processo criativo', 'Os desertos e as referências'].map((item) => (
-                    <li key={item} className="flex items-center gap-3 text-[#888888] text-sm">
+                    <li key={item} className="flex items-center gap-3 text-[#888888] text-sm justify-center md:justify-start">
                       <span className="w-1.5 h-1.5 bg-[#D4AF37]/40 rotate-45 shrink-0" />
                       {item}
                     </li>
