@@ -61,7 +61,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" className="flex items-center gap-3 group">
           <img
-            src="/assets/logo.png"
+            src="/assets/logo.png?v=2"
             alt="Verbo Bruto"
             className="w-9 h-9 object-contain rounded-sm"
           />

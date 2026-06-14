@@ -39,7 +39,7 @@ export default function Mensageiro() {
               <div className="absolute -inset-3 border border-[#D4AF37]/30" />
               <div className="absolute -inset-1 border border-[#D4AF37]/10" />
               <img
-                src="/assets/yt_profile.png"
+                src="/assets/yt_profile.png?v=2"
                 alt="O Mensageiro — Verbo Bruto"
                 className="w-full h-full object-cover object-center grayscale contrast-125"
               />
