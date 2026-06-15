@@ -50,19 +50,29 @@ export default function Oracao() {
 
   return (
     <>
-      {/* Trigger button — minimal, bottom-right */}
+      {/* Trigger button — bottom-right with tooltip */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-8 right-8 z-40 group flex items-center gap-3"
+        className="fixed bottom-8 right-6 md:right-8 z-40 group"
         aria-label="Preciso de uma oração"
       >
-        <span className="hidden md:block text-[#888888] text-[10px] tracking-[0.3em] uppercase group-hover:text-[#D4AF37] transition-colors duration-300">
-          Preciso de uma oração
-        </span>
-        <div className="w-10 h-10 border border-[#D4AF37]/30 flex items-center justify-center group-hover:border-[#D4AF37] group-hover:bg-[#D4AF37]/10 transition-all duration-300">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-          </svg>
+        {/* Tooltip */}
+        <div className="absolute bottom-full right-0 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+          <div className="bg-[#111111] border border-[#D4AF37]/30 px-4 py-2 whitespace-nowrap">
+            <p className="text-[#D4AF37] text-[10px] tracking-[0.3em] uppercase">Preciso de uma oração</p>
+          </div>
+          <div className="w-2 h-2 bg-[#111111] border-r border-b border-[#D4AF37]/30 rotate-45 absolute -bottom-1 right-5" />
+        </div>
+
+        <div className="flex items-center gap-3">
+          <span className="hidden md:block text-[#888888] text-[10px] tracking-[0.3em] uppercase group-hover:text-[#D4AF37] transition-colors duration-300">
+            Preciso de uma oração
+          </span>
+          <div className="w-12 h-12 md:w-10 md:h-10 border border-[#D4AF37]/30 flex items-center justify-center group-hover:border-[#D4AF37] group-hover:bg-[#D4AF37]/10 transition-all duration-300 bg-[#0A0A0A]/80 backdrop-blur-sm">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+          </div>
         </div>
       </button>
 

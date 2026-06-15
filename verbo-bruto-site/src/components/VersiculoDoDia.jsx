@@ -57,20 +57,30 @@ export default function VersiculoDoDia() {
 
   return (
     <>
-      {/* Trigger button — minimal, bottom-left */}
+      {/* Trigger button — bottom-left with tooltip */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-8 left-8 z-40 group flex items-center gap-3"
+        className="fixed bottom-8 left-6 md:left-8 z-40 group"
         aria-label="Versículo do Dia"
       >
-        <div className="w-10 h-10 border border-[#D4AF37]/30 flex items-center justify-center group-hover:border-[#D4AF37] group-hover:bg-[#D4AF37]/10 transition-all duration-300">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
-            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-          </svg>
+        {/* Tooltip */}
+        <div className="absolute bottom-full left-0 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+          <div className="bg-[#111111] border border-[#D4AF37]/30 px-4 py-2 whitespace-nowrap">
+            <p className="text-[#D4AF37] text-[10px] tracking-[0.3em] uppercase">Versículo do Dia</p>
+          </div>
+          <div className="w-2 h-2 bg-[#111111] border-r border-b border-[#D4AF37]/30 rotate-45 absolute -bottom-1 left-5" />
         </div>
-        <span className="hidden md:block text-[#888888] text-[10px] tracking-[0.3em] uppercase group-hover:text-[#D4AF37] transition-colors duration-300">
-          Versículo do Dia
-        </span>
+
+        <div className="flex items-center gap-3">
+          <div className="w-12 h-12 md:w-10 md:h-10 border border-[#D4AF37]/30 flex items-center justify-center group-hover:border-[#D4AF37] group-hover:bg-[#D4AF37]/10 transition-all duration-300 bg-[#0A0A0A]/80 backdrop-blur-sm">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
+              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <span className="hidden md:block text-[#888888] text-[10px] tracking-[0.3em] uppercase group-hover:text-[#D4AF37] transition-colors duration-300">
+            Versículo do Dia
+          </span>
+        </div>
       </button>
 
       {/* Modal */}

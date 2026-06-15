@@ -26,7 +26,7 @@ const tracks = [
     title: 'Teus Olhos Sobre Mim',
     verse: 'Salmos 32:8',
     desc: 'O conforto de ser visto por quem nunca desvia o olhar.',
-    spotifyId: null,
+    spotifyId: '6iBpRGImHABFbw7KK5yZU2',
     ytId: 'w0qfKX0OLs8',
   },
   {
@@ -34,7 +34,7 @@ const tracks = [
     title: 'Santo Como Nunca Vi',
     verse: 'Isaías 6:3',
     desc: 'A contemplação que transforma a visão de tudo.',
-    spotifyId: null,
+    spotifyId: '6QiOSHjG4XTLnDtKyTwBmf',
     ytId: '2f2qTIO28as',
   },
   {
@@ -42,7 +42,7 @@ const tracks = [
     title: 'Carrega-me',
     verse: 'Salmos 55:22',
     desc: 'A entrega de quem cansou de carregar sozinho.',
-    spotifyId: null,
+    spotifyId: '1QOfL7D6T4kKd8WhurE25u',
     ytId: '-rCP946uTb8',
   },
   {
@@ -50,7 +50,7 @@ const tracks = [
     title: 'Só o Teu Nome',
     verse: 'Filipenses 2:9-10',
     desc: 'A adoração que reconhece a única autoridade.',
-    spotifyId: null,
+    spotifyId: '2lYbECPppw8ar8eaMUH3Ph',
     ytId: 'HnNF5dUoyq8',
   },
   {
