@@ -2,7 +2,7 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export default function Tela08Universo() {
   return (
-    <section id="universo" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-6">
+    <section id="universo" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-8 md:px-12">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <ScrollReveal>

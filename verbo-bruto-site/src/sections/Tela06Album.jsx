@@ -84,7 +84,7 @@ export default function Tela06Album() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="album" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-6">
+    <section id="album" className="relative w-full bg-[#0D0D0D] py-28 md:py-40 px-8 md:px-12">
       <div ref={ref} className="max-w-5xl mx-auto">
         {/* Header */}
         <ScrollReveal>

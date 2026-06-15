@@ -7,7 +7,7 @@ export default function Tela05EnquantoHaTempo() {
   return (
     <section
       id="enquanto-ha-tempo"
-      className="relative w-full bg-[#0A0A0A] py-28 md:py-40 px-6"
+      className="relative w-full bg-[#0A0A0A] py-28 md:py-40 px-8 md:px-12"
     >
       <div className="max-w-3xl mx-auto">
         {/* Header */}

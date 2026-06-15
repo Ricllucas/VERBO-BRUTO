@@ -31,7 +31,7 @@ const books = [
 
 export default function Tela07Palavra() {
   return (
-    <section id="palavra" className="relative w-full bg-[#0A0A0A] py-28 px-6">
+    <section id="palavra" className="relative w-full bg-[#0A0A0A] py-28 px-8 md:px-12">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <ScrollReveal>

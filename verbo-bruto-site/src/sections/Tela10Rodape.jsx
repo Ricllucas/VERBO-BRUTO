@@ -1,6 +1,6 @@
 export default function Tela10Rodape() {
   return (
-    <footer className="relative w-full bg-[#0A0A0A] py-20 px-6 border-t border-[#D4AF37]/10">
+    <footer className="relative w-full bg-[#0A0A0A] pt-20 pb-32 md:pb-28 px-8 md:px-12 border-t border-[#D4AF37]/10">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-8">

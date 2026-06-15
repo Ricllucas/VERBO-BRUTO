@@ -9,6 +9,7 @@ import Tela05EnquantoHaTempo from './sections/Tela05EnquantoHaTempo'
 import Tela06Album from './sections/Tela06Album'
 import Tela07Palavra from './sections/Tela07Palavra'
 import Tela08Universo from './sections/Tela08Universo'
+import TelaDestaques from './sections/TelaDestaques'
 import Tela09Caminhe from './sections/Tela09Caminhe'
 import Tela10Rodape from './sections/Tela10Rodape'
 
@@ -18,7 +19,7 @@ function App() {
       <Navbar />
       <VersiculoDoDia />
       <Oracao />
-      <main>
+      <main className="pb-28 md:pb-24">
         <Tela01Chegada />
         <Tela02Manifesto />
         <Tela03Mensageiro />
@@ -27,6 +28,7 @@ function App() {
         <Tela06Album />
         <Tela07Palavra />
         <Tela08Universo />
+        <TelaDestaques />
         <Tela09Caminhe />
       </main>
       <Tela10Rodape />

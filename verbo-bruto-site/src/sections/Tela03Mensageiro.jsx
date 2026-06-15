@@ -2,7 +2,7 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export default function Tela03Mensageiro() {
   return (
-    <section id="mensageiro" className="relative min-h-screen w-full bg-[#0A0A0A] py-28 md:py-40 px-6">
+    <section id="mensageiro" className="relative min-h-screen w-full bg-[#0A0A0A] py-28 md:py-40 px-8 md:px-12">
       <div className="max-w-6xl mx-auto">
         {/* Large image */}
         <ScrollReveal className="mb-16 md:mb-24">

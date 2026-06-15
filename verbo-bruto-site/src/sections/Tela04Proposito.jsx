@@ -4,7 +4,7 @@ export default function Tela04Proposito() {
   return (
     <section
       id="proposito"
-      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-28 md:py-40 px-6"
+      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-28 md:py-40 px-8 md:px-16"
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">
